@@ -294,5 +294,5 @@ tmux_conf_copy_to_os_clipboard=true
 #set -g status-position top
 
 #Extra customizations
-bind-key j command-prompt -p "join pane from:" "join-pane -s '%%'"
-bind-key s command-prompt -p "send pane to:" "join-pane -t '%%'"
+bind-key j command-prompt -p "join pane from:" "join-pane -s ':%%'"
+bind-key s command-prompt -p "send pane to:" "join-pane -t ':%%'"
